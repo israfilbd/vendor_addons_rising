@@ -393,6 +393,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GesturalNavigationHideIME
 
+# Lawnchair
+ifeq ($(strip $(TARGET_PREBUILT_LAWNCHAIR_LAUNCHER)),true)
+PRODUCT_PACKAGES += \
+    Lawnchair \
+    LawnchairOverlay \
+    Lawnicons
+endif
+
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
