@@ -399,6 +399,14 @@ PRODUCT_PACKAGES += \
     Lawnchair \
     LawnchairOverlay \
     Lawnicons
+
+# Lawnchair Launcher
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.quickswitch_lawnchair_shipped=1
+else 
+# Lawnchair Launcher
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.quickswitch_lawnchair_shipped=0
 endif
 
 # Include {Lato,Rubik} fonts
