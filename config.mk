@@ -410,6 +410,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
     persist.sys.quickswitch_lawnchair_shipped=0
 endif
 
+TARGET_PREBUILT_BCR ?= true
 # Basic call recorder
 ifeq ($(strip $(TARGET_PREBUILT_BCR)),true)
 PRODUCT_PACKAGES += \
