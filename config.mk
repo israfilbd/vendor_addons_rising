@@ -351,7 +351,8 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
+    AndroidBlackThemeOverlay \
+    AndroidAmoledBlackThemeOverlay
 
 # UI styles
 PRODUCT_PACKAGES += \
