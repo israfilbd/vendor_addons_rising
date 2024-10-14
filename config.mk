@@ -357,7 +357,8 @@ PRODUCT_PACKAGES += \
 # Utility Overlays
 PRODUCT_PACKAGES += \
     HideSmartSpace \
-    SmartSpaceOffset
+    SmartSpaceOffset \
+    HideClock
 
 # Volume Styles
 PRODUCT_PACKAGES += \
