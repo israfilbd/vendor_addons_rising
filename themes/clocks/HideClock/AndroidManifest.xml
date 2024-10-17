@@ -19,7 +19,7 @@
     package="com.android.systemui.clocks.hideclock"
     android:versionCode="1"
     android:versionName="1.0">
-    <overlay android:targetPackage="android" android:category="android.theme.customization.clocks" android:priority="1"/>
+    <overlay android:targetPackage="android" android:category="android.theme.customization.hideclock" android:priority="1"/>
 
     <application android:label="Hide Clock" android:hasCode="false" android:allowBackup="false"/>
 </manifest>
