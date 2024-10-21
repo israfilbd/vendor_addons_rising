@@ -20,11 +20,6 @@ PRODUCT_PACKAGES += \
     UdfpsAnimations
 endif
 
-ifeq ($(WITH_GMS),true)
-PRODUCT_PACKAGES += \
-    WallpaperPickerGoogleRelease
-endif
-
 PRODUCT_COPY_FILES += \
     vendor/addons/prebuilt/product/etc/permissions/com.android.angle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.angle.xml \
     vendor/addons/prebuilt/product/etc/sysconfig/dialer_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/dialer_experience.xml \
