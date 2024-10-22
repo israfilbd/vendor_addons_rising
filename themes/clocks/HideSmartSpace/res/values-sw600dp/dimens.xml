@@ -21,4 +21,5 @@
     <dimen name="widget_horizontal_padding">0dp</dimen>
     <dimen name="widget_icon_size">0dp</dimen>
     <dimen name="widget_icon_padding">0dp</dimen>
+    <dimen name="keyguard_status_area_margin_top">-60dp</dimen>
 </resources>
