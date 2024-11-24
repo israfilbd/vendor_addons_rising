@@ -242,26 +242,15 @@ PRODUCT_PACKAGES += \
 
 # Icon Shapes
 PRODUCT_PACKAGES += \
-    IconShapeCloudyOverlay \
-    IconShapeCylinderOverlay \
     IconShapeFlowerOverlay \
     IconShapeHeartOverlay \
-    IconShapeHexagonOverlay \
     IconShapeIosOverlay \
     IconShapeLeafOverlay \
-    IconShapeMeowOverlay \
     IconShapePebbleOverlay \
-    IconShapeRoundedHexagonOverlay \
-    IconShapeRoundedRectOverlay \
     IconShapeSamsungOverlay \
-    IconShapeScrollOverlay \
-    IconShapeStretchedOverlay \
-    IconShapeSquareOverlay \
     IconShapeSquircleOverlay \
     IconShapeStretchedOverlay \
-    IconShapeTaperedRectOverlay \
-    IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
+    IconShapeTeardropOverlay
 
 # Navbar
 PRODUCT_PACKAGES += \
