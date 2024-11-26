@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fonts-modification version="1">
 
+    <!-- Motorola -->
+    <family customizationType="new-named-family" name="milky">
+        <font weight="300" style="normal">MotoMilkyStacked-Regular.ttf</font>
+    </family>
+
     <!-- Nothing -->
     <family customizationType="new-named-family" name="subway">
         <font weight="300" style="normal">subway.ttf</font>
