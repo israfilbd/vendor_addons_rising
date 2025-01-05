@@ -438,6 +438,10 @@ PRODUCT_PACKAGES += \
     PowerIOS \
     PowerLayers
 
+# BetterQS
+PRODUCT_PACKAGES += \
+    BetterQS
+
 # Lawnchair
 ifeq ($(strip $(TARGET_PREBUILT_LAWNCHAIR_LAUNCHER)),true)
 PRODUCT_PACKAGES += \
