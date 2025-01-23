@@ -1,6 +1,6 @@
 <!--
 /**
- * Copyright (c) 2023-2024, The risingOS Android Project
+ * Copyright (c) 2023-2025, The risingOS Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,12 +16,12 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.custom.overlay.systemui.gestural.hide_ime_space"
+        package="com.android.system.theme.hide_ime_space_no_space"
         android:versionCode="1"
         android:versionName="1.0">
     <overlay android:targetPackage="android"
         android:category="android.theme.customization.hide_ime_space"
         android:priority="1"/>
 
-    <application android:label="Hide IME Space" android:hasCode="false"/>
+    <application android:label="Hide IME No Space" android:hasCode="false"/>
 </manifest>
