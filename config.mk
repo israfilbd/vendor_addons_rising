@@ -259,6 +259,21 @@ PRODUCT_PACKAGES += \
     IconShapeStretchedOverlay \
     IconShapeTeardropOverlay
 
+# Brightness slider styles
+PRODUCT_PACKAGES += \
+    BrightnessSliderAcunOverlay \
+    BrightnessSliderBangOverlay \
+    BrightnessSliderCyberpunkOverlay \
+    BrightnessSliderFilledOverlay \
+    BrightnessSliderGradientRoundedBarOverlay \
+    BrightnessSliderLeafyOutlineOverlay \
+    BrightnessSliderMinimalThumbOverlay \
+    BrightnessSliderOutlineOverlay \
+    BrightnessSliderRoundedClipOverlay \
+    BrightnessSliderShadedOverlay \
+    BrightnessSliderThinOverlay \
+    BrightnessSliderTranslucentOverlay
+
 # Navbar
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
@@ -351,7 +366,8 @@ PRODUCT_PACKAGES += \
     
 # Hide IME space
 PRODUCT_PACKAGES += \
-    GesturalNavigationHideIME
+    GesturalNavigationNarrowSpace \
+    GesturalNavigationNoSpace
 
 # Progress Bar Themes
 PRODUCT_PACKAGES += \
